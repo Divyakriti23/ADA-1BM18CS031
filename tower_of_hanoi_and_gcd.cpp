@@ -54,4 +54,20 @@ int main(){
 	else
 		two();
 }
-
+/*
+Enter
+1: tower of hanoi 
+2: GCD 
+1
+enter the number of discs 
+2
+move 1 disc from A to B
+move C disc from A to C
+move 1 disc from B to C
+Enter
+1: tower of hanoi 
+2: GCD 
+2
+Enter two positive integers: 10 15
+G.C.D of 10 & 15 is: 5
+*/
