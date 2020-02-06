@@ -42,3 +42,8 @@ int main()
     	}
     return 0; 
 } 
+/*
+Enter the no. of elements and the key to be searched:5 1 
+Enter the elements in sorted order:1 1 1 2 3
+First Occurrence at index = 0	Last Occurrence at index = 2	Count = 3
+*/
