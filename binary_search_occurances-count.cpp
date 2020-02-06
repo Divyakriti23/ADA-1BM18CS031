@@ -1,3 +1,7 @@
+/*b) Given a sorted array with repeating integers. You need to find the first occurrence , last occurrence and count 
+of a given key in the array. USE ONLY BINARY SEARCH. 
+Your algorithm should run in LogN time.If element is not present print -1.*/
+
 #include<bits/stdc++.h> 
 using namespace std; 
 int first(int arr[], int low, int high, int x, int n) 
@@ -28,22 +32,26 @@ int main()
     	f =  first(arr, 0, n-1, x, n);
     	/*l = last(arr, 0, n-1, x, n);*/
     	if(f == -1){
-      		cout<<"-1 -1 0"<<"\n";
+      		cout<<"\nFirst occurance: -1\nLast occurance: -1\nCount: 0"<<"\n";
     	}	
     	else{
-      		cout<<"First Occurrence at index = "<< f;
+      		cout<<"\nFirst Occurrence at index = "<< f;
       		i=f;
 	      	while(arr[i]<=x)
 	      	{
 			i++; 
 	      	}
-	      	cout<<"\t"<<"Last Occurrence at index = "<<i-1;
-	      	cout<<"\t"<<"Count = "<<(i - f)<<"\n"; 
+	      	cout<<"\n"<<"Last Occurrence at index = "<<i-1;
+	      	cout<<"\n"<<"Count = "<<(i - f)<<"\n"; 
     	}
     return 0; 
 } 
-/*
-Enter the no. of elements and the key to be searched:5 1 
+
+/*Output:
+Enter the no. of elements and the key to be searched:5 1
 Enter the elements in sorted order:1 1 1 2 3
-First Occurrence at index = 0	Last Occurrence at index = 2	Count = 3
+
+First Occurrence at index = 0
+Last Occurrence at index = 2
+Count = 3
 */
