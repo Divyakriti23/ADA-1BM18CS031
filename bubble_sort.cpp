@@ -45,9 +45,16 @@ int main()
 }
 
 /*Output:
-Enter number of elements:
+1.Enter number of elements:
 4
 Enter the array elements:
 34 23 9 17
 9	17	23	34	Time taken by program is : 0.000015 sec 
+
+2.Enter number of elements:
+9
+Enter the array elements:
+1 7 0 77 45 32 65 34 87
+0	1	7	32	34	45	65	77	87	Time taken by program is : 0.000016 sec 
+
 */
