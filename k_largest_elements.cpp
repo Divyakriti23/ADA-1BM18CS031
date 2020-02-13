@@ -1,3 +1,5 @@
+/*Write an efficient program for printing k largest elements in an array. Elements in the array can be in any order. It is given that all array elements are distinct.*/
+
 #include <bits/stdc++.h> 
 using namespace std;
 void bubblesort(int arr[],int n)
@@ -35,3 +37,12 @@ int main()
   
 	return 0;
 }
+
+/*Output:
+Enter number of elements:
+6 
+Enter the array elements:
+4 3 8 9 10 2
+Enter how many largest elements you want to print:3
+10	9	8
+*/
