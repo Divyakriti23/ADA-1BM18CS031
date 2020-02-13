@@ -43,3 +43,11 @@ int main()
    
 	return 0;
 }
+
+/*Output:
+Enter number of elements:
+4
+Enter the array elements:
+34 23 9 17
+9	17	23	34	Time taken by program is : 0.000015 sec 
+*/
